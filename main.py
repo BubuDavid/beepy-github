@@ -8,6 +8,7 @@ def print_cards(functions):
 
 functions = [
 	buberto_bunzales,
+	gustavo_alexis,
 ]
 
 print_cards(functions)
