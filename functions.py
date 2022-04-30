@@ -52,3 +52,28 @@ def buberto_bunzales():
 		print("No sé qué es lo bueno :c")
 
 	return gusta_python
+
+
+def Pepo():
+	# Escribe tus datos
+	nombre =  "Pepo Ambriz"
+	edad   = 423
+	# Te gusta python
+	gusta_python =  True
+	# Dinos 3 cosas que te gusten
+	gustos = [
+		 "El voleyball",
+		 "El Bubu",
+		 "y el Missa",
+	]
+	print(f"Que onda, yo soy: {nombre} y tengo {edad} añitos")
+	print("Me gusta:")
+	for gusto in gustos:
+		print(gusto)
+	print()
+		
+	if gusta_python:
+		print("¡Y soy guapo! :D")
+	else:
+		print("No sé qué es lo bueno :c")
+	return gusta_python
